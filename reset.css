@@ -242,6 +242,10 @@ textarea {
   text-transform: inherit; /* 2 */
 }
 
+:not(#sample-btn) {
+  
+}
+
 /**
  * Correct cursors for clickable elements.
  */
