@@ -1,0 +1,98 @@
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* ヘッダー */
+header {
+  height: 70px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: 83px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  margin: 15px 0 15px 15px;
+}
+
+.info {
+  margin-right: 20px;
+  display: none;
+}
+
+/* メイン */
+main {
+  background-color: pink;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  height: calc(100vh - 70px);
+}
+
+.group {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2em;
+  margin: 70px 0;
+}
+
+.group p {
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+.list-container {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.box {
+  width: 75px;
+  height: 75px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+/* フッター */
+footer {
+  background-color: #fff;
+  height: 70px;
+  display: none;
+}
+
+@media screen and (min-width: 700px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    height: calc(100vh - 140px);
+  }
+}
+
+/* PC版 */
+@media screen and (min-width: 769px) {
+  .box {
+    width: 180px;
+    height: 180px;
+  }
+
+  .info {
+    display: block;
+  }
+}
