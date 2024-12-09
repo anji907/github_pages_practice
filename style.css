@@ -46,6 +46,12 @@ main {
   margin: 70px 0;
 }
 
+#sample-btn {
+  height: 50px;
+  width: 100px;
+  background-color: lightgray;
+}
+
 .group p {
   margin-bottom: 50px;
   line-height: 1.5;
